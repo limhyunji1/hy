@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Layout01</title> <!-- clss로 선언 할 때에는 .wrap 이런식으로 해야됨 -->
+    <style> /* html5에서 type="text/css" 생략가능 */
+        body { background-color: #e8eaf6; }
+        #wrap { width: 1200px ; height: 1200px; margin: 0 auto; color: #fff; text-align: center; font-size: 50px;  text-transform: uppercase; }
+        #header { background-color: #9fa8da; width: 1200px; height: 100px; line-height: 100px; }
+        #nav { background-color: #7986cb; width: 1200px; height: 100px; line-height: 100px; }
+        #aside { float: left; background-color: #5c6bc0; width: 400px; height: 900px; line-height: 900px; }
+        #contents { float: left; background-color: #3f51b5; width: 800px; height: 900px; line-height: 900px; }
+        #footer { clear:both; background-color: #3949ab; width: 1200px; height: 100px; line-height: 100px; }
+    </style>
+</head>
+<body><!-- 단축키 : div#wrap>div*5 + TAB --> 
+    <div id="wrap"> <!-- 부모 div --> <!-- id 대신에 class도 가능! -->
+        <div id="header">header</div> <!-- 자식 div -->
+        <div id="nav">nav</div>
+        <div id="aside">aside</div>
+        <div id="contents">contents</div>
+        <div id="footer">footer</div>
+    </div>
+</body>
+</html>
+
+
+<!-- float은 블록요소를 오른쪽으로 정렬시켜주지만 height값이 0으로 된다 / 약어 : fll (floatleft) + TAB -->
+<!-- float문제를 해결하려면 영역을 살려줘야한다 / 방법 : 1.똑같이 float을 사용(비추) | 2.clear:both;를 사용(비추) | 3.상위박스한테 overflow:hidden을 사용(90%정도 사용) | 4.clearfix를 만들어 사용(100% 사용) -->

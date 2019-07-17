@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Layout07</title>
+<style>
+    * { margin: 0; padding: 0; }
+    body { background: #f3e5f5;}
+    #wrap { margin: 0 auto; width: 1200px; height: 1000px; }
+    header { width: 100%; height: 150px; background: #967acd; }
+    aside { width: 30%; height: 700px; background: #7f5ec2; float: left; }
+    section { width: 70%; height: 700px; background: #6844b7; float: left; }
+    footer { width: 100%; height: 150px; background: #5f3fb1; clear: both; }
+
+    /* 화면 너비 0 - 1200px */
+    @media (max-width: 1200px){
+        #wrap { width: 90%; }
+    }
+
+    /* 화면 너비 0 - 768 */
+    @media (max-width: 768px){
+        #wrap { width: 100%; }
+    }
+
+    /* 화면 너비 0 - 480 */
+    @media (max-width: 480px){
+        #wrap { width: 100%; }
+        header { height: 300px; }
+        aside { float: none; width: 100%; height: 300px; }
+        section { float: none; width: 100%; height: 300px; }
+        
+    }
+</style>
+</head>
+<body>
+<div id="wrap">
+    <header></header>
+    <aside></aside>
+    <section></section>
+    <footer></footer>
+</div>    
+</body>
+</html>

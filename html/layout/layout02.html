@@ -1,0 +1,27 @@
+<!DOCTYPE html> <!-- 약어 : html:5 + TAB -->
+<html lang="ko"> <!-- lang은 국적표시 / 브라우저가 인식 할 수 있는 언어 -->
+<head>
+    <meta charset="UTF-8">
+    <title>layout02</title>
+    <style>
+        body { background-color: #e0f2f1; }
+        #wrap { width: 1200px; height: 1200px; margin: 0 auto; color: #000; text-align: center; font-size: 50px;  text-transform: uppercase; }
+        #header { background-color: #b2dfdb; width: 1200px; height: 100px; line-height: 100px; }
+        #nav { background-color: #80cbc4; width: 1200px; height: 100px;  line-height: 100px;}
+        #side_left { float: left; background-color: #4db6ac; width: 400px; height: 900px; line-height: 900px; }
+        #contents { float: left; background-color: #26a69a; width: 400px; height: 900px; line-height: 900px; }
+        #side_right { float: left; background-color: #009688; width: 400px; height: 900px; line-height: 900px; }
+        #footer { clear:both; background-color: #00897b; width: 1200px; height: 100px; line-height: 100px; }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div id="header">header</div>
+        <div id="nav">nav</div>
+        <div id="side_left">side_left</div>
+        <div id="contents">contents</div>
+        <div id="side_right">side_right</div>
+        <div id="footer">footer</div>
+    </div>
+</body>
+</html>
