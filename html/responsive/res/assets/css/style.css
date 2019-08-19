@@ -31,8 +31,8 @@ body {background: url(../img/header_bg.jpg) repeat-x center top;}
 }
 .header .header_tit h1:hover {
     box-shadow:
-    inset -9em 0 0 0 #257fac,
-    inset 9em 0 0 0 #257fac;
+    inset -10em 0 0 0 #257fac,
+    inset 10em 0 0 0 #257fac;
 }
 
 .header .header_tit a {
