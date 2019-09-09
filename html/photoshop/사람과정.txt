@@ -1,0 +1,2 @@
+선으로따기->레이어배경하나만들기(#8b93a3)->필터노이즈 add noise amount 15% / 가우시안체크 / monochromatice(단색효과)체크 ->
+필터 블러 가우시안블러 1.5px -> 사진 ctrl + l, 13 / 0.59 / 221 -> crtl + U, -2 / +28 / 0 -> filter unsharp mask ( 123 , 7.7, 0 )
