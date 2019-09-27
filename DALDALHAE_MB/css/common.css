@@ -32,6 +32,3 @@ header, nav, section, article, footer, aside, figure, figcaption{display: block;
 #nav div img { width: 35px; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-80%); }
 #nav div.review img { width: 33px; transform: translate(-50%,-70%); }
 #nav a div span { font-size: 14px; font-weight: 500; position: absolute; left: 50%; top: 70%; transform: translate(-50%,-0%); color: #393939; }
-
-/* TOP 버튼 */
-.btnTop{width: 40px; height: 40px; position: fixed; right: 10px; bottom: 100px; z-index: 900;}
