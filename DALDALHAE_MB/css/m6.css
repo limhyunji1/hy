@@ -1,7 +1,8 @@
 @charset "utf-8";
 
-.cafe_status_name i{ color:#F26C69; font-size: 8vw; }
-.cafe_status_name span {font-weight: 600; font-size: 4vw;position: absolute;top: 1.8vw;}
+.cafe_status {margin-top: 10px;}
+.cafe_status_name i{ color:#F26C69; font-size: 7vw; }
+.cafe_status_name span {font-weight: 600; font-size: 6vw; top: 1.8vw;}
 .cafe_status_name img,.cafe_status_map img {width: 100%;}
 .cafe_status_map span {padding: 1vw 1.5vw 1vw 1.5vw; font-weight: 600; font-size: 2.8vw; display: inline-block;}
 .cafe_status_map div {float: right; font-size: 1.5vw; padding-right: 1.5vw;}
@@ -27,8 +28,7 @@
 
 .btnTop{width: 40px; height: 40px; position: fixed; right: 10px; bottom: 100px; z-index: 900;}
 
-
-.swiper-slide img { width: 550px; }
+.swiper-slide img {width: 500px;}
 .swiper-container {
   width: 100%;
   height: 100%;
