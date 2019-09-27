@@ -10,3 +10,6 @@
 
 <h3>CSS3</h3>
 <a href="https://limhyunji1.github.io/hy/html/css/index.html">CSS3</a>
+
+<h3>프로젝트 포트폴리오 - 달달해</h3>
+<a href="https://limhyunji1.github.io/hy/DALDALHAE_PC/pc_index.html">DALDALHAE</a>
