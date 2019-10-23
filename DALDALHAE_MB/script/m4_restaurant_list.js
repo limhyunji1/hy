@@ -70,5 +70,5 @@ $(document).ready(function() {
             $('.filter_area .now .add').html(choiceTxt);
         });
 
-});
+	});
 });

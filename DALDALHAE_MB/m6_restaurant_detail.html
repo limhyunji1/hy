@@ -25,10 +25,6 @@
             dynamicBullets: true,
           },
         });
-        
-        $('.btnTop').on('click', function () {
-            $('html, body').stop().animate({scrollTop:0});
-        });
     });
   </script>
 </head>
@@ -36,15 +32,15 @@
 <body>
     <div id="wrap">
         <header id="header">
-            <div class="logo"><a href="#"><img src="images/m_logo1.png" alt="달달해"></a></div>
+            <h1 class="logo"><a href="m_index.html"><img src="images/m_logo1.png" alt="달달해"></a></h1>
         </header>
 
         <nav id="subnav" class="clearfix">
-            <div class="sub"><a href="#"><img src="images/arrow.png" alt="뒤로가기"></a><img src="images/m2_rec.png" alt="카페"><h2>맛집추천</h2></div>
+            <div class="sub"><a href="m4_restaurant_list.html"><img src="images/arrow.png" alt="뒤로가기"></a><img src="images/m2_rec.png" alt="카페"><h2>맛집추천</h2></div>
         </nav>
 
         <section id="content">
-            <div class="cafe_status">
+            <div class="cafe_status clearfix">
                 <div class="cafe_status_name">
                     <i class="far fa-heart"></i>
                     <span>&nbsp;DAL</span>
@@ -60,13 +56,11 @@
                 </div>
                 <div class="cafe_status_map">
                     <span>서울시 강남구 역삼동 12-3456</span>
-                    <iframe width="100%" height="300" src="https://maps.google.com/maps?width=100%&amp;height=300&amp;hl=en&amp;q=%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EC%84%9C%EC%B4%88%EA%B5%AC%20%EB%B0%98%ED%8F%AC2%EB%8F%99%20%EC%8B%A0%EB%B0%98%ED%8F%AC%EB%A1%9C11%EA%B8%B8%2040+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"></iframe>
+                    <iframe width="100%" height="300" title="맛집 구글 지도" src="https://maps.google.com/maps?width=100%&amp;height=300&amp;hl=en&amp;q=%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EC%84%9C%EC%B4%88%EA%B5%AC%20%EB%B0%98%ED%8F%AC2%EB%8F%99%20%EC%8B%A0%EB%B0%98%ED%8F%AC%EB%A1%9C11%EA%B8%B8%2040+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"></iframe>
                     <div>마지막 업데이트 : 2019-08-07</div>
                 </div>
             </div>
-            <hr>
             <div class="cafe_convenience">
-
                 <div class="cafe_convenience_title cafe_title">편의정보</div>
                 <div class="cafe_convenience_contents">
                     <div class="cafe_convenience_content">
@@ -81,8 +75,7 @@
                     </div>
                 </div>
             </div>
-            <hr>
-            <div class="cafe_menu">
+            <div class="cafe_menu clearfix">
                 <div class="cafe_title">메뉴</div>
                 <div class="cafe_menu_imgs">
                     <img src="images/menu1.jpg" alt="">
@@ -91,9 +84,8 @@
                 </div>
                 <div class="more">잘못된 정보 알리기 ></div>
             </div>
-            <hr style="margin-top:5vw;">
-            <div class="cafe_review">
-                <div class="cafe_title2">
+            <div class="cafe_review clearfix">
+                <div class="cafe_title">
                     리뷰
                     <div class="cafe_title_content">
                         <img src="images/review_write.gif" alt="">
@@ -148,9 +140,8 @@
                     </div>
                 </div>
                 <div class="more"> 리뷰 더 보기 > </div>
-                <a href="" class="btnTop"><img src="images/top_icon.gif" alt="상단이동"></a>
+                <a href="" class="btnTop" role="button"><img src="images/top_icon.gif" alt="상단이동"></a>
             </div>
-            <hr style="margin-top:8vw;">
         </section>
         <nav id="nav" class="clearfix">
             <a href="m_index.html"><div><img src="images/main.png" alt="메인"><span>Main</span></div></a>

@@ -3,7 +3,6 @@ input { background: none; border: none; }
 select { background: none; border: none; }
 #content input.submit { cursor: pointer; }
 
-#content { position:relative; min-height: 100%; padding: 0px 0 70px 0; box-sizing: border-box;  }
 #content .find { width: 100%; margin: 0 auto; }
 #content h3 { padding: 30px 0px 0 2%; font-size: 20px; font-weight: 700; float: left; }
 #content input { margin-left: 5%; float: left; width: 55%; height: 25px; margin-top: 28px; border: 1px solid #a0a0a0; }
@@ -19,8 +18,8 @@ select { background: none; border: none; }
 #content select:last-child { margin-left: 0%; }
 
 .dessert { margin-top: 15px; width: 100%; }
-.box { float: left; margin: 10px 0 15px 7%; width: 40%; height: 120px; }
+.box { float: left; margin: 10px 0 15px 7%; width: 40%; height: 130px; }/* 높이 120에서 130으로 늘리기 */
 .imgbox { border: 1px solid #000; box-sizing: border-box; overflow: hidden; }
-.imgbox img { width: 100%; height: 100%; }
+.imgbox img { position: relative; margin-left: -20%; height: 100%; max-width: none;  }/* 가로 세로 비율이 달라 세로 크기에 맞추기 */
 .txtbox { padding: 10px; border-radius: 6px; border: 1.5px solid #f26c69; box-sizing: border-box; font-size: 14px; font-weight: 400; }
 .txtbox p { margin-bottom: 6px; }

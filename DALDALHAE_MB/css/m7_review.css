@@ -10,7 +10,7 @@ button { border: none; cursor: pointer; }
 
 .review .profile { margin-top: 20px; }
 .review .profile img { float: left; width: 55px; }
-.review .txt { margin: 8px 0 0 8px; float: left; font-size: 16px; font-weight: 500; line-height: 20px; width: 200px; }
+.review .txt { margin: 8px 0 0 8px; float: left; font-size: 16px; font-weight: 500; line-height: 20px; width: 191px; }
 .review .txt p.down { color: #737373; }
 .review .right_cont { float: right; }
 .review .right_cont img:first-child { width: 35px; float: left; padding-top: 15px; }

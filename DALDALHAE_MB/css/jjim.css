@@ -1,7 +1,4 @@
 @charset "utf-8";
-#header { height: 90px; }
-.logo img { width: 65px; }
-button {border: none; background: none; padding: 0; margin: 0;}
 
 #subnav img:nth-child(2) {width: 27px; margin: 13px 15px 15px;}
 #subnav h2 {left: 20% !important;}
@@ -27,4 +24,3 @@ button {border: none; background: none; padding: 0; margin: 0;}
 
 .btn {text-align: center;}
 button.more {width: 120px; height: 35px; background: #f26c69; color: #fff; margin: 10px 0 20px 0;}
-
