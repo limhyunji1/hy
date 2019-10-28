@@ -8,7 +8,7 @@ button { background: none; border: none; cursor: pointer; }
 ul, li { list-style: none; }
 address { font-style: normal; }
 
-#visual {position: relative; width: 100%; height: 750px; margin-bottom: : 95px;}
+#visual {position: relative; width: 100%; height: 750px; margin-bottom: 95px; }
 #visual > div {position: absolute; top: 0; width: 50%; height: 100%; overflow: hidden;}
 
 #visual > div, #visual div .bg, #visual div .txt {position: absolute;}
